@@ -18,5 +18,5 @@ for x in range(100):
     t.forward(x*4) # Просто передвинуть черепашку по экрану
     t.pendown() # Нарисовать следующее имя родственника
     t.write(family[x%len(family)], font = ("Arial", int((x+4)/4), "bold"))
-    t.left(360/len(family) + 2) # Повернуть влево
+t.left(360/len(family) + 2) # Повернуть влево
 input()
